@@ -1,7 +1,3 @@
-The written analysis has the following:
-
-Overview of the analysis:
-
 The purpose of the new analysis is well defined. (3 pt)
 Results:
 
@@ -16,17 +12,17 @@ There is a statement summarizing three business recommendations to the CEO for a
 
 
 ## Overview of the analysis
-V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+This goal of this analysis was to summarize and illustrate how specific pieces of ride-sharting data compare between different city types. The summary includes the number of drivers, the sum of fares for a given period of time, and the average fare in US dollars per ride, all grouped by the city type. The three city types that were used in this analysis are Urban, Suburban, and Rural.
 
 ## Resources
 - Data Source: students_complete.csv, schools_complete.csv
 - Software: Python 3.7.6, Visual Studio Code, 1.62.0
 
 ## Summarized Results
-  - ### District Summary
-      If we look at the District Summary before and after the removal of the ninth-grade scores from Thomas Highschool, we can see that the average scores and the percentage of students passing the subjects decreased slightly, with the exception of Average Reading Score which stayed the same to the tenth of a percent. Below are images of the           District Summary before and after the recalculation.
-      #### District Summary Before Recalculation
-      <img src = "https://github.com/AaronAKTX/School_District_Analysis/blob/main/Resources/Old_District_Summary.PNG">
+  - ### Rides per City and Average Fare per Ride
+      The analysis clearly shows that the most rides per city are taken in Urban cities. Suburban cities have less rides than urban cities, and rural cities have by far the           least amount of rides. The scatterplot below. Fig. 1,  clearly illustrates this. It is also clear that the average price per ride is higher in rurual areas, then suburban areas, and       urban areas average the lowest cost per ride.
+      #### Fig. 1
+      <img src = "https://github.com/AaronAKTX/PyBer_Analysis/blob/main/analysis/Fig1.png">
 
       #### District Summary After Recalculation
       <img src = "https://github.com/AaronAKTX/School_District_Analysis/blob/main/Resources/New_District_Summary_DF.PNG">
